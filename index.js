@@ -1,5 +1,6 @@
 // code here
 $(document).ready(() => {
+    // use json-server (for installing use command 'npm install -g json-server', for serving the json file open cmd from project folder and un command 'json-server --watch db.json')
     fetch('http://localhost:3000/shows')
             .then(function (response) {
                 return response.json();
